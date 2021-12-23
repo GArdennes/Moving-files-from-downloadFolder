@@ -7,7 +7,7 @@ source = "C:/Users/user/Downloads/"
 files = os.listdir(source)
 #try:
 for file in files:
-              if file.endswith((".docx", ".pdf", ".doc", ".epub", ".txt", ".xlsx", "pptx", ".cbz", ".torrent", ".csv")):
+              if file.endswith((".docx", ".pdf", ".doc", ".epub", ".txt", ".xlsx", "pptx", ".cbz", ".torrent", ".csv", ".cbr")):
                      destination = "C:/Users/user/Documents/Libraries"
                      #Split name and extension
                      data = os.path.splitext(file)
